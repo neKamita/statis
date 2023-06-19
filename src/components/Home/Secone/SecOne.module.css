@@ -1,0 +1,81 @@
+.secone {
+  width: 100%;
+  min-height: calc(100vh - 188px);
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+
+.secone::after {
+  background: url(https://satis-fit.uz/_nuxt/img/hero.f6df6e4.jpg);
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 0;
+  content: "";
+  left: 0;
+  opacity: 0.6;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.info {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: #0c6bc5;
+  font-family: "TT Norms", sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 130%;
+  margin-bottom: 16px;
+}
+
+.text {
+  color: #11385c;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: 48px;
+  opacity: 0.6;
+}
+
+.btn {
+  background: #0c6bc5;
+  padding: 0 60px;
+  align-items: center;
+  border: none;
+  border-radius: 48px;
+  cursor: pointer;
+  display: flex;
+  height: 56px;
+
+  background-image: none;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.df {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,14 @@
+.title {
+  color: #212121;
+  font-size: 24px;
+  font-weight: 500;
+  transition: 0.3s ease-in-out;
+  -webkit-text-decoration-skip: objects;
+  background-color: transparent;
+  cursor: pointer;
+  outline: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-family: "TT Norms", sans-serif;
+}

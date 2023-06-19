@@ -1,0 +1,25 @@
+.sectwo {
+  width: 100%;
+  height: 1100px;
+  background-image: url(https://satis-fit.uz/_nuxt/img/category.198ef54.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 2;
+  padding: 120px 0 200px;
+}
+
+.sectwo::after {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGEAAAAnCAYAAAAfBybSAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAMNSURBVHgB7ZtNbtpAFMffGwNJW1XlCNygdN2khRPADUJPULIgUlaBVaS0C3KCwg2aE+D0Q93SG3AENlFTG8/rjJErsCAYf8wM4N8C4Q/Z0v8/M+/x3oBgMNe/qFJy3RpZUAVgr4CoikRlQqgs3ocEE0Kciq9TcfCbZnwCzBp3Tos27AAIBtEdUflFYVZFRk3k0AiLHQ+0yfPuqMDsi7elMRiIESZ8+u7WkOEZEm8SQBkyAlHMGIA71yn2L+s4AUPQZoIc9S9Ls49iiWlnKfx60OachhfvSgPQjHIT9Iu/jJwd4nPgOIWhrtmhzATTxF8FIhNmWD3VZmRuwi6IH0a1GZmZsIvih1FlRiYm3HxzWpYFV0RppJh6UREzUjXBTzURrgCoBnuGNMPzoJdFNpWKCfssfpgszEhkwvXoT6VYZF3xmDM4MNI0I5YJhyx+mDTM2MqEeXkBZMbThJwlkpix0QS/qMb+ttCyGoew5idlnk0x2wN+G7VguGSCFPzoGMr/y8eEr3Ph4xMUDMFjNrf4ZJ0p+PmHO8qFVo/sgQBjNnOsc0bE7yFHObJXIrRvPcJjmXVOj7piypyD7ErlKEPEgSlH+HBZfzZh8kTnpNR3Xe+N8GcIOQpA2xF6ixgx8I/Cl2Uayhh92Ye6j2n4ox94r3Ny3A+dX80+FeF044tPdPswK/W7dZyuuP40uRnx2ST+wn3RyM2ITlTxF+7fDmkGk6ULkHuBcpaJt3kgdhU1ryMtgrZYIXpxN5sl7iccakU1WHJmMz6QuT4kILXOmm9GwWqL2dHY77gx39H3wI8GUdb7SE+EDNi3IC5HvSgzDInj1yz2t2a65WX340b6o37lW0ABQdxAxPemz46sR/2ad6pD9iueW27TzKVKzahf+WbQxHyHBm/pzKqCDEd2wnT+l0GbCQF6sqpkeX3aaDdhkfmvcTkzsuj0SeH5fdRSgkqMMiEgrUCuI8jGwUgTFtm2VuULDzg2abnZhPEmBNz8dKqiId5GwMbqXd76spuk7IwJAUGaO58dODV1nd+Gfx5b1qPYAOleAAAAAElFTkSuQmCC);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  height: 40px;
+  left: 200px;
+  position: absolute;
+  top: 0;
+  transform: translateY(-40%);
+  width: 100px;
+}
